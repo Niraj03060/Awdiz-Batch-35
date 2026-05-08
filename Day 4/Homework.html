@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration form - lect 5</title>
+
+</head>
+<body>
+
+    <h1>Registration form</h1>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Persoanl Information</legend>
+
+            <!-- Full Name -->
+
+            <label>Full Name:</label>
+            <br />
+            <input type="text" placeholder="Enter your full name" />
+            <br /><br />
+
+            <!-- Phone Number -->
+
+            <label>Phone Number:</label>
+            <br />
+            <input type="tel" placeholder="Enter you phone number" />
+            <br /><br />
+
+
+            <!-- Course Selection -->
+
+            <label>Select Course:</label>
+            <br />
+            <select>
+                <option>Data Science</option>
+                <option>BSc IT</option>
+                <option>Cyber Security</option>
+                <option>MCA</option>
+            </select>
+            <br /><br />
+
+            <!-- Preferred Shift -->
+
+            <label>Preferred Shift:</label>
+            <br />
+            <input type="radio" id="morning" name="shift" />
+            <label for="morning">Morning</label>
+
+            <input type="radio" id="evening" name="shift" />
+            <label for="evening">Evening</label>
+            <br /><br />
+
+            <!-- Hobbies -->
+
+            <label>Hobbies:</label>
+            <br />
+
+            <input type="checkbox" id="reading" />
+            <label for="reading">Reading</label>
+
+            <input type="checkbox" id="sports" />
+            <label for="sports">Sports</label>
+
+            <input type="checkbox" id="music" />
+            <label for="music">Music</label>
+
+            <input type="checkbox" id="travel" />
+            <label for="travel">Traveling</label>
+
+            <br /><br />
+
+            <!-- Address -->
+
+            <label>Address:</label>
+            <br />
+
+            <textarea placeholder="Enter your address"></textarea>
+
+            <br /><br />
+
+            <!-- Upload File -->
+
+            <label>Upload Documents:</label>
+            <br />
+            <input type="file" />
+
+            <br /><br />
+
+            <!-- Submit Button -->
+
+            <input type="submit" value="Register" />
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
